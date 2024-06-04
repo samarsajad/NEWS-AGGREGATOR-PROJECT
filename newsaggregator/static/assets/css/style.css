@@ -517,15 +517,14 @@ footer {
 
 footer .footer-section {
   padding-top: 1rem;
-  display: flex;
+  display: inline-block;
   justify-content: space-evenly;
-  grid-template-columns: 1fr;
   gap: 30px;
   border-top: 1px solid var(--action-primary);
 
 }
 
-footer .wrapper { text-align: center; }
+footer .wrapper { text-align: center; display:grid; }
 
 .footer-logo { margin-bottom: 10px; }
 
